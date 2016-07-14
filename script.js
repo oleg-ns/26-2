@@ -7,7 +7,7 @@ for (i=0; i<10; i++) {
 //3
 setTimeout(function printNumbersInterval() {
     for (i=1; i<=20; i++) {
-        console.log(i)
+        setTimeout(console.log(i), 100)
     }
 }
 ,100)
